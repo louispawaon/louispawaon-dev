@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     screens: { 
+      'mobile_S':'320px',
+      'mobile_M':'375px',
+      'mobile_L':'425px',
       'sm': {'max':'768px'},
       'md': '768px',
       'lg': '1024px',
