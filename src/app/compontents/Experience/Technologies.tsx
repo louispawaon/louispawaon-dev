@@ -7,7 +7,7 @@ import Creations from "./Creations";
 
 export default function Technologies(){
     return(
-        <div className="space-y-[4rem]" >
+        <div className="space-y-[4rem]" id="About">
             <div className="space-y-3">
                 <h1 className="text-2xl font-semibold">About Me</h1>
                 <p className="text-justify flex flex-col text-base">What's up! I'm Migs. I'm currently at my 3rd Year of College taking up Bachelor of Science Major in Computer Science Degree at 
@@ -51,7 +51,7 @@ export default function Technologies(){
                 </div>
             </div>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-3" id="Experience">
                 <h1 className="text-2xl font-semibold">Experience</h1>
                 <div>
                     <a href="https://www.facebook.com/SAMAHANSysDev" className="flex items-center gap-6 ">
@@ -73,7 +73,7 @@ export default function Technologies(){
                     </ul>
                 </div>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-3" id="Projects">
                 <Creations/>
             </div>
         </div>

@@ -8,12 +8,10 @@ export default function Home() {
     <title>Louis Miguel Pawaon</title>
     <Sidebar/>
     <main className='md:mx-auto lg:mx-[15rem] py-16 px-7'>
-      <section id="Header">
+      <section id="Top">
         <Header/>
       </section>
-      <section id="Experience">
-        <Experience/> 
-      </section>
+      <Experience/> 
       <Footer/>
     </main>
     </>

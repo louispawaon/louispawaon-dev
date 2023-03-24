@@ -6,7 +6,7 @@ import React from "react";
 export default function Creations(){
     return(
         <div>
-            <div className="space-y-6">
+            <div className="space-y-3">
                 <h1 className="text-2xl font-semibold">Projects</h1>
                 <p>These are some of the personal and academic projects that I have taken part of over the course of my career.</p>
                 <div>

@@ -8,10 +8,10 @@ export default function Sidebar(){
     return(
        <div className='flex flex-col justify-end right-0 bottom-[10%] pr-[5%] fixed space-y-5 z-50'>
          <div className=" flex flex-col text-right"> 
-            <Link href="#Header">introduction</Link>
-            <Link href="#Experience">get to know migs</Link>
-            <a>experience</a>
-            <a>projects</a>
+            <a href="#Top">introduction</a>
+            <a href="#About">get to know migs</a>
+            <a href="#Experience">experience</a>
+            <a href="#Projects">projects</a>
          </div>
          <div className="text-right space-x-2">
             <a href="https://github.com/louispawaon/">
