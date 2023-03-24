@@ -1,24 +1,24 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import {FaReact} from 'react-icons/fa'
-import {SiTypescript,SiJavascript,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiExpress,SiMysql,SiPostgresql,SiFirebase,SiPrisma} from 'react-icons/si'
+import {SiTypescript,SiJavascript,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiExpress,SiMysql,SiPostgresql,SiFirebase,SiPrisma,SiGithub} from 'react-icons/si'
 import {BsGit} from 'react-icons/bs'
+import Creations from "./Creations";
 
 export default function Technologies(){
     return(
-        <div className="space-y-4" >
-            <div className="space-y-1">
+        <div className="space-y-[4rem]" >
+            <div className="space-y-3">
                 <h1 className="text-2xl font-semibold">About Me</h1>
                 <p className="text-justify flex flex-col text-base">What's up! I'm Migs. I'm currently at my 3rd Year of College taking up Bachelor of Science Major in Computer Science Degree at 
                 Ateneo de Davao University.</p>
             </div>
-            <div className="space-y-1">
-                <h1 className="text-2xl font-semibold">Tech Stack and Tools</h1>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="space-y-3">
+                <h1 className="text-2xl font-semibold">Technologies and Tools</h1>
+                <div className="grid grid-cols-2 gap-4">
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(26,127,55,.1)] text-[#1a7f37]">Frontend Frameworks</span>
-                    <div className="pt-3 space-x-4 flex flex-row">
+                    <div className="pt-3 space-x-4 flex md:flex-row">
                         <SiJavascript className="w-[30px] h-[30px]"/>
                         <SiTypescript className="w-[30px] h-[30px]"/>
                         <FaReact className="w-[30px] h-[30px]"/>
@@ -46,10 +46,35 @@ export default function Technologies(){
                     <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Miscellaneous</span>
                     <div className="pt-3 space-x-4 flex flex-row">
                         <BsGit className="w-[30px] h-[30px]"/>
-                        <SiPostgresql className="w-[30px] h-[30px]"/>
-                        <SiFirebase className="w-[30px] h-[30px]"/>
+                        <SiGithub className="w-[30px] h-[30px]"/>
                     </div>
                 </div>
+            </div>
+            </div>
+            <div className="space-y-3">
+                <h1 className="text-2xl font-semibold">Experience</h1>
+                <div>
+                    <a href="https://www.facebook.com/SAMAHANSysDev" className="flex items-center gap-6 ">
+                        <img src="/SamahanSysDev.svg" className="rounded-xl h-[80px] w-[80px] flex items-center" alt="Inappropriate"/>
+                        <div>
+                            <h1 className="font-semibold text-lg">SAMAHAN Systems Development</h1>
+                            <h1 className="font-normal">Backend Developer Head</h1>
+                            <span className="text-thin text-sm gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">2022-Present</span>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <ul className="list-disc text-sm space-y-3">
+                        <li>Designed and implemented backend infrastructure and database management for the organization projects delegated by the SAMAHAN Student Government using <span className="font-semibold">TypeScript, JavaScript, Next, Express, Firebase and Firestore</span>.</li>
+                        <li>Collaborated with Frontend Developers and Designers to define project requirements, scope and timelines to ensure that the backend architecture aligned with the overall vision and goals of the project.</li>
+                        <li>Aided in organization workshops for Frontend Development, Backend Development and UI/UX Fundamentals with over <span className="font-semibold">200 participants</span>.</li>
+                        <li>Spearheaded the planning and execution of the organization's roadmap, aligning it with the overall project goals and timelines, and ensuring that all deliverables were completed on time and within budget.</li>
+                        <li>Fostered a collaborative and inclusive team culture, encouraging open communication, sharing of ideas, and mutual support, and promoting a positive and respectful work environment.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="space-y-3">
+                <Creations/>
             </div>
         </div>
 
