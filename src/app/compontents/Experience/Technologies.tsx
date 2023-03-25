@@ -10,7 +10,7 @@ export default function Technologies(){
         <div className="space-y-[4rem]" id="About">
             <div className="space-y-3">
                 <h1 className="text-2xl font-semibold">About Me</h1>
-                <p className="text-justify flex flex-col text-base">What's up! I'm Migs. I'm currently at my 3rd Year of College taking up Bachelor of Science Major in Computer Science Degree at 
+                <p className="text-justify flex flex-col text-base">What's up! I'm Louis Miguel Pawaon. I'm currently at my 3rd Year of College taking up a Bachelor of Science Major in Computer Science Degree at 
                 Ateneo de Davao University.</p>
             </div>
             <div className="space-y-3">
