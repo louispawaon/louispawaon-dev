@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Sidebar(){
     return(
-       <div className='flex flex-col justify-end right-0 bottom-[10%] pr-[5%] fixed space-y-5 z-50'>
+       <div className='flex flex-col justify-end right-0 bottom-[10%] pr-[5%] fixed space-y-5 z-50 sm:invisible md:visible'>
          <div className=" flex flex-col text-right"> 
             <a href="#Top">introduction</a>
             <a href="#About">get to know migs</a>

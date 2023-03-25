@@ -9,7 +9,7 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 export default function Card(){
     return(
-        <aside className=" md:sticky inline-block top-28 self-start bg-[#f6f8fa] p-4 border-2 border-[#d0d7de] border-solid rounded-xl row-span-2">
+        <aside className="sm:w-[100%] custom1:w-[100%] xl:md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] p-4 border-2 border-[#d0d7de] border-solid rounded-xl row-span-2">
             <div className="flex flex-col items-center mb-4 ml-4 space-y-2 ">
                 <div className="items-center">
                     <img src="/profpic.jpg" className="rounded-full h-[112px] w-[112px] flex items-center" alt="Inappropriate"/>
