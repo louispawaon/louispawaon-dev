@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <title>Louis Miguel Pawaon</title>
     <Sidebar/>
-    <main className='md:mx-auto lg:mx-[15rem] py-16 px-7'>
+    <main className='snap-y snap-mandatory md:mx-auto lg:mx-[15rem] py-16 px-7'>
       <section id="Top">
         <Header/>
       </section>

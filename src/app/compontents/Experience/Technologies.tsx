@@ -7,7 +7,7 @@ import Creations from "./Creations";
 
 export default function Technologies(){
     return(
-        <div className="space-y-[4rem]" id="About">
+        <div className="space-y-[4rem] snap-start" id="About">
             <div className="space-y-3">
                 <h1 className="text-2xl font-semibold">About Me</h1>
                 <p className="text-justify flex flex-col text-base">What's up! I'm Louis Miguel Pawaon. I'm currently at my 3rd Year of College taking up a Bachelor of Science Major in Computer Science Degree at 
@@ -19,34 +19,34 @@ export default function Technologies(){
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(26,127,55,.1)] text-[#1a7f37]">Frontend Frameworks</span>
                     <div className="pt-3 space-x-4 flex md:flex-row">
-                        <SiJavascript className="w-[30px] h-[30px]"/>
-                        <SiTypescript className="w-[30px] h-[30px]"/>
-                        <FaReact className="w-[30px] h-[30px]"/>
-                        <SiNextdotjs className="w-[30px] h-[30px]"/>
-                        <SiTailwindcss className="w-[30px] h-[30px]"/>
+                        <SiJavascript className="w-[30px] h-[30px]" title="JavaScript"/>
+                        <SiTypescript className="w-[30px] h-[30px]" title="TypeScript"/>
+                        <FaReact className="w-[30px] h-[30px]" title="ReactJS"/>
+                        <SiNextdotjs className="w-[30px] h-[30px]" title="Next.js"/>
+                        <SiTailwindcss className="w-[30px] h-[30px]" title="TailwindCSS"/>
                     </div>
                 </div>
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(211,78,128,.1)] text-[#d34e80]">Backend Frameworks</span>
                     <div className="pt-3 space-x-4 flex flex-row">
-                        <SiNodedotjs className="w-[30px] h-[30px]"/>
-                        <SiExpress className="w-[30px] h-[30px]"/>
+                        <SiNodedotjs className="w-[30px] h-[30px]" title="Node.js"/>
+                        <SiExpress className="w-[30px] h-[30px]" title="Express"/>
                     </div>
                 </div>
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Database Management Systems</span>
                     <div className="pt-3 space-x-4 flex flex-row">
-                        <SiMysql className="w-[30px] h-[30px]"/>
-                        <SiPostgresql className="w-[30px] h-[30px]"/>
-                        <SiFirebase className="w-[30px] h-[30px]"/>
-                        <SiPrisma className="w-[30px] h-[30px]"/>
+                        <SiMysql className="w-[30px] h-[30px]" title="MySQL"/>
+                        <SiPostgresql className="w-[30px] h-[30px]" title="PostgreSQL"/>
+                        <SiFirebase className="w-[30px] h-[30px]" title="Firebase"/>
+                        <SiPrisma className="w-[30px] h-[30px]"  title="Firestore"/>
                     </div>
                 </div>
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Miscellaneous</span>
                     <div className="pt-3 space-x-4 flex flex-row">
-                        <BsGit className="w-[30px] h-[30px]"/>
-                        <SiGithub className="w-[30px] h-[30px]"/>
+                        <BsGit className="w-[30px] h-[30px]"  title="Git"/>
+                        <SiGithub className="w-[30px] h-[30px]" title="Github"/>
                     </div>
                 </div>
             </div>

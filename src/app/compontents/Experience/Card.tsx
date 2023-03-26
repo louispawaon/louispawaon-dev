@@ -20,7 +20,7 @@ export default function Card(){
             </div>
             <div className="flex justify-center">
                 <div className="grid auto-cols-fr gap-2">
-                    <a href="/Pawaon_Resume.pdf"><AccountBoxIcon/> Download Resume</a>
+                    <a href="/Pawaon_Resume.pdf"><AccountBoxIcon/>Download Resume</a>
                     <a href={`mailto:lpawaon@gmail.com`}><EmailIcon/> Send Email</a>
                     <a href="https://twitter.com/miggy_pawaon"><TwitterIcon/> Follow Twitter</a>
                     <a href="https://www.linkedin.com/in/louispawaon/"><LinkedInIcon/> Connect LinkedIn</a>
