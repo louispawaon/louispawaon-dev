@@ -18,7 +18,7 @@ export default function Technologies(){
                 <div className="grid grid-cols-2 gap-4">
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(26,127,55,.1)] text-[#1a7f37]">Frontend Frameworks</span>
-                    <div className="pt-3 space-x-4 flex md:flex-row">
+                    <div className="pt-3 space-x-4 flex flex-wrap">
                         <SiJavascript className="w-[30px] h-[30px]" title="JavaScript"/>
                         <SiTypescript className="w-[30px] h-[30px]" title="TypeScript"/>
                         <FaReact className="w-[30px] h-[30px]" title="ReactJS"/>
@@ -35,7 +35,7 @@ export default function Technologies(){
                 </div>
                 <div>
                     <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Database Management Systems</span>
-                    <div className="pt-3 space-x-4 flex flex-row">
+                    <div className="pt-3 space-x-4 flex flex-wrap">
                         <SiMysql className="w-[30px] h-[30px]" title="MySQL"/>
                         <SiPostgresql className="w-[30px] h-[30px]" title="PostgreSQL"/>
                         <SiFirebase className="w-[30px] h-[30px]" title="Firebase"/>
