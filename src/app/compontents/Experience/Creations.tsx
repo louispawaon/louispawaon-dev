@@ -44,7 +44,7 @@ export default function Creations(){
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <img src="/SakugaBooru.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#565657] rounded-xl p-4" alt="SakugaBot"/>
+                        <img src="/SakugaBooru.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#000000] rounded-xl p-4" alt="SakugaBot"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">SakugaBooru </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Dec 2022</span></h1>
@@ -59,7 +59,7 @@ export default function Creations(){
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <img src="/chammie.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#4A2170] rounded-xl p-4" alt="Chammie"/>
+                        <img src="/chammie.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#3C2069] rounded-xl p-4" alt="Chammie"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">Chammie Theme </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jun 2021 - Present</span></h1>
