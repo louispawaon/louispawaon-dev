@@ -14,7 +14,7 @@ export default function Creations(){
                         <img src="/ConstiWebsite.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#39398D] rounded-xl p-4" alt="ConstiWeb"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
-                        <h1 className="font-semibold text-lg"><span className="italic">Consti Natin 'To Voting Website </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jan 2023 - Feb 2023</span></h1>
+                        <h1 className="font-semibold text-lg"><span className="italic">SAMAHAN Voting Website </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jan 2023 - Feb 2023</span></h1>
                         <div className="inline space-x-2"> 
                             <span className="font-semibold text-sm p-1 bg-[rgba(211,78,128,.1)] text-[#d34e80]">Backend Developer</span>
                             <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Database Administrator</span>
@@ -53,6 +53,21 @@ export default function Creations(){
                         <p className="text-sm text-justify">It generated over <span className="font-semibold">27,000 impressions</span> based on Twitter Analytics over the course of its lifetime.</p>
                     </div>
                     <a href="https://twitter.com/BotSakuga" className="bg-[#f6f8fa] font-[#424a53] p-2 rounded-[10px] border-[rgba(27,31,35,.15)] border-solid border-[1px] flex items-center justify-center">Visit Twitter Page</a>
+                </div>
+                <div>
+                    <div className="flex justify-center">
+                        <img src="/chammie.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#4A2170] rounded-xl p-4" alt="Chammie"/>
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-4 py-3">
+                        <h1 className="font-semibold text-lg"><span className="italic">Chammie Theme </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jun 2021 - Present</span></h1>
+                        <div className="inline space-x-2"> 
+                            <span className="font-semibold text-sm p-1 bg-[rgba(211,78,128,.1)] text-[#d34e80]">Developer</span>
+                        </div>
+                        <p className="text-sm text-justify">A dark purple VS Code theme inspired by the colors of the Computer Studies Cluster of Ateneo de Davao University College. This academic year, Chammie encourages you to "Show Your Colors", where we must uncover who we are and what potentials we have as we navigate our college experience.</p>
+                        <p className="text-sm text-justify">I developed the theme with VSCode's <span className="font-semibold">Yeoman Extension Generator </span>to craft the theme with updates every new Academic Year.</p>
+                        <p className="text-sm text-justify">It garnered over <span className="font-semibold">157 installs</span> and satisfactory reviews and feedback from users.</p>
+                    </div>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=tremor6916.chammie-theme" className="bg-[#f6f8fa] font-[#424a53] p-2 rounded-[10px] border-[rgba(27,31,35,.15)] border-solid border-[1px] flex items-center justify-center">Visit VSCode Marketplace</a>
                 </div>
             </div>
         </div>
