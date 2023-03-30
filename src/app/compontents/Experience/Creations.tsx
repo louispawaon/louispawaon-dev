@@ -7,8 +7,11 @@ export default function Creations(){
     return(
         <div className="snap-start">
             <div className="space-y-3">
-                <h1 className="text-2xl font-semibold">Projects</h1>
-                <p>These are some of the personal and academic projects that I have taken part of over the course of my career.</p>
+                <h1 className="text-2xl font-semibold">Highlighted Projects</h1>
+                <p>These are some of the personal and academic projects that I have taken part of over the course of my career. More of my projects are available for viewing in <a href="https://github.com/louispawaon/"><span className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                before:bottom-0 before:left-0 before:bg-black
+                before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+                before:transition before:ease-in-out before:duration-300">Github.</span></a></p>
                 <div>
                     <div className="flex justify-center">
                         <img src="/ConstiWebsite.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#39398D] rounded-xl p-4" alt="ConstiWeb"/>
