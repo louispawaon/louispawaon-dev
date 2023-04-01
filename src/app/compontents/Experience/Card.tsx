@@ -8,7 +8,7 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 export default function Card(){
     return(
-        <aside className="sm:w-[100%] custom1:w-[100%] xl:md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] p-4 border-2 border-[#d0d7de] border-solid rounded-xl row-span-2">
+        <aside className="sm:w-[100%] custom1:w-[100%] md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] p-4 border-2 border-[#d0d7de] border-solid rounded-xl row-span-2">
             <div className="flex flex-col items-center mb-4 ml-4 space-y-2 flex-shrink-0">
                 <div className="items-center">
                     <img src="/profile.png" className="rounded-full h-[120px] w-[120px] flex items-center object-cover" title="My Graduation Photo for my Senior High School"/>
