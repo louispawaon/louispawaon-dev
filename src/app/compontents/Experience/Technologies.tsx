@@ -58,9 +58,9 @@ export default function Technologies(){
                         <img src="/SamahanSysDev.svg" className="rounded-xl h-[80px] w-[80px] flex items-center" alt="Inappropriate"/>
                         <div>
                             <h1 className="font-[650] text-lg">SAMAHAN Systems Development</h1>
-                            <h1 className="font-semibold">Director <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">April 2023 - Present</span></h1>
-                            <h1 className="font-normal text-sm">Backend Developer Head <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Feb 2023 - March 2023</span></h1>
-                            <h1 className="font-normal text-sm">Member <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">April 2022 - Present</span></h1>
+                            <h1 className="font-semibold">Director <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Apr 2023 - Present</span></h1>
+                            <h1 className="font-normal text-sm">Backend Developer Head <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Feb 2023 - Mar 2023</span></h1>
+                            <h1 className="font-normal text-sm">Member <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Apr 2022 - Present</span></h1>
                         </div>
                     </a>
                 </div>
