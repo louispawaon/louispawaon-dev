@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Image from "next/image";
 
 
 /* */
@@ -14,7 +15,7 @@ export default function Creations(){
                 before:transition before:ease-in-out before:duration-300">Github.</span></a></p>
                 <div>
                     <div className="flex justify-center">
-                        <img src="/ConstiWebsite.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#39398D] rounded-xl p-4" alt="ConstiWeb"/>
+                        <Image src="/ConstiWebsite.png" width={290} height={170} className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#39398D] p-4" alt="ConstiWeb"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">SAMAHAN Consti Natin 'To Voting Website </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jan 2023 - Feb 2023</span></h1>
@@ -29,7 +30,7 @@ export default function Creations(){
                 </div>
                 <div>
                     <div className="flex justify-center ">
-                        <img src="/GSTA Enrollment System.svg" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#5AC387] rounded-xl p-4" alt="GSTASystem"/>
+                        <Image src="/GSTA Enrollment System.svg" width={290} height={170} className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#5AC387] p-4" alt="GSTASystem"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">GSTA Enrollment System </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jun 2022 - Oct 2022</span></h1>
@@ -37,14 +38,14 @@ export default function Creations(){
                             <span className="font-semibold text-sm p-1 bg-[rgba(211,78,128,.1)] text-[#d34e80]">Backend Developer</span>
                             <span className="font-semibold text-sm p-1 bg-[rgba(9,105,218,.1)] text-[#0969da]">Database Administrator</span>
                         </div>
-                        <p className="text-sm text-justify">An Enrollment System for a Security Training Center which is part of our Software Engineering 1&2 Courseware Overall Project. I Developed the Backend Framework and Database Management using <span className="font-semibold">TypeScript, Node, Express and PostgreSQL.</span>I also used <span className="font-semibold">Prisma</span>, an ORM Framework to bridge between the databse and the api endpoints to perform complex CRUD Operations.</p>
+                        <p className="text-sm text-justify">An Enrollment System for a Security Training Center which is part of our Software Engineering 1&2 Courseware Overall Project. I Developed the Backend Framework and Database Management using <span className="font-semibold">TypeScript, Node, Express and PostgreSQL.</span> I also used <span className="font-semibold">Prisma</span>, an ORM Framework to bridge between the databse and the api endpoints to perform complex CRUD Operations.</p>
                         <p className="text-sm text-justify">It was evaluated as a successful project with a final average grade of <span className="font-semibold">A (92%-100%)</span>.</p>
                     </div>
                     <a href="https://github.com/louispawaon/goncar-enrollment-system-backend" className="bg-[#f6f8fa] font-[#424a53] p-2 rounded-[10px] border-[rgba(27,31,35,.15)] border-solid border-[1px] flex items-center justify-center">Visit Repository</a>
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <img src="/SakugaBooru.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#000000] rounded-xl p-4" alt="SakugaBot"/>
+                        <Image src="/SakugaBooru.png" width={290} height={170} className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#000000] p-4" alt="SakugaBot"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">SakugaBooru Twitter Bot </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Aug 2021 - Dec 2021 </span></h1>
@@ -59,7 +60,7 @@ export default function Creations(){
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <img src="/chammie.png" className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#3C2069] rounded-xl p-4" alt="Chammie"/>
+                        <Image src="/chammie.png" width={290} height={170} className="rounded-xl w-[290px] h-[170px] flex items-center bg-[#3C2069] p-4" alt="Chammie"/>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-4 py-3">
                         <h1 className="font-semibold text-lg"><span className="italic">Chammie VSCode Theme </span><span className="inline-block text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Jun 2021 - Present</span></h1>

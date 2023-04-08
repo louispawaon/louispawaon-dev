@@ -5,13 +5,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import Image from "next/image";
 
 export default function Card(){
     return(
         <aside className="sm:w-[100%] custom1:w-[100%] md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] p-4 border-2 border-[#d0d7de] border-solid rounded-xl row-span-2">
             <div className="flex flex-col items-center mb-4 ml-4 space-y-2 flex-shrink-0">
                 <div className="items-center">
-                    <img src="/profile.png" className="rounded-full h-[120px] w-[120px] flex items-center object-cover" title="My Graduation Photo for my Senior High School"/>
+                    <Image src="/profile.png" width={120} height={120} className="rounded-full w-[120px] h-[120px] flex items-center object-cover" alt="My Graduation Photo for my Senior High School" title="My Graduation Photo for my Senior High School" blurDataURL="|BCF#jWC00tR}hV@ENV[t7RwtQo%IVtAxuV@bEX80?Rk}-t79sWB%LRkV@InofxbV@t3WWNIt7xDNFWAxBt7NNWC%1WANI$.f8R+oeR}WAoIs;WTW7fiS1jat8WXWFt6j^bxWBnit7WCaeX3RkjXw|t6NGM{%1t6IWkCxa" placeholder="blur"/>
                 </div>
                 <div className="items-center text-sm font-medium">
                     <h2>Louis Pawaon</h2>
