@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import {FaReact} from 'react-icons/fa'
-import {SiTypescript,SiJavascript,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiExpress,SiMysql,SiPostgresql,SiFirebase,SiPrisma,SiGithub} from 'react-icons/si'
+import {SiTypescript,SiJavascript,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiExpress,SiMysql,SiPostgresql,SiFirebase,SiPrisma,SiGithub,SiDjango} from 'react-icons/si'
 import {BsGit} from 'react-icons/bs'
 import Creations from "./Creations";
 
@@ -31,6 +31,7 @@ export default function Technologies(){
                     <div className="pt-3 space-x-4 flex flex-row">
                         <SiNodedotjs className="w-[30px] h-[30px]" title="Node.js"/>
                         <SiExpress className="w-[30px] h-[30px]" title="Express"/>
+                        <SiDjango className="w-[30px] h-[30px]" title="Django"/>
                     </div>
                 </div>
                 <div>
@@ -51,8 +52,24 @@ export default function Technologies(){
                 </div>
             </div>
             </div>
-            <div className="space-y-3" id="Experience">
+            <div className="space-y-6" id="Experience">
                 <h1 className="text-2xl font-semibold">Experience</h1>
+                <div>
+                    <a href="https://mugna.tech/" className="flex items-center gap-6 ">
+                        <img src="/MugnaTech.jpg" className="rounded-xl h-[80px] w-[80px] flex items-center" alt="Inappropriate"/>
+                        <div>
+                            <h1 className="font-[650] text-lg">Mugna Technologies Inc.</h1>
+                            <h1 className="font-semibold">Backend Developer Intern <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">Apr 2023 - Jun 2023</span></h1>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <ul className="list-disc text-sm space-y-3">
+                        <li>Applied <span className="font-semibold">Python and Django</span> skills to develop a web application, leveraging knowledge gained from relevant trainings.</li>
+                        <li>Collaborated with a team of developers to deliver a functional and user-friendly web application.</li>
+                        <li>Participated in the full software development lifecycle, including requirements gathering, design, development, and testing.</li>
+                    </ul>
+                </div>
                 <div>
                     <a href="https://www.facebook.com/SAMAHANSysDev" className="flex items-center gap-6 ">
                         <img src="/SamahanSysDev.svg" className="rounded-xl h-[80px] w-[80px] flex items-center" alt="Inappropriate"/>
