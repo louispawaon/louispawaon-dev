@@ -1,9 +1,9 @@
 import type { StaticImageData } from "next/image";
 
 export type ExperienceType = {
-    company: string;
+    companyName: string;
     position: string;
     date: string;
-    description: string;
+    description: string[];
     imageUrl?: StaticImageData
 }
