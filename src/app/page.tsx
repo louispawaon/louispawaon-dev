@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import {Experience,Footer,Header,Sidebar} from "./compontents/ComponentIndex"
+import {Experience,Footer,Header,Sidebar} from "@/app/compontents/ComponentIndex"
 
 export default function Home() {
   return (
