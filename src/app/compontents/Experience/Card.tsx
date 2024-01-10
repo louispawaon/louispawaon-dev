@@ -1,10 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import EmailIcon from '@mui/icons-material/Email';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import Image from "next/image";
 
 export default function Card(){
@@ -20,11 +15,11 @@ export default function Card(){
             </div>
             <div className="flex justify-center">
                 <div className="grid auto-cols-fr gap-2">
-                    <a href="/Pawaon_Resume.pdf"><AccountBoxIcon/>Download Resume</a>
+                    {/* <a href="/Pawaon_Resume.pdf"><AccountBoxIcon/>Download Resume</a>
                     <a href={`mailto:lpawaon@gmail.com`}><EmailIcon/> Send Email</a>
                     <a href="https://twitter.com/miggy_pawaon"><TwitterIcon/> Follow Twitter</a>
                     <a href="https://www.linkedin.com/in/louispawaon/"><LinkedInIcon/> Connect LinkedIn</a>
-                    <a href="https://github.com/louispawaon/"><GitHubIcon/> Follow Github</a>
+                    <a href="https://github.com/louispawaon/"><GitHubIcon/> Follow Github</a> */}
                 </div>
             </div>
         </aside>

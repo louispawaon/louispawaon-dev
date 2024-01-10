@@ -1,8 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Sidebar(){
     return(
@@ -28,7 +25,7 @@ export default function Sidebar(){
               before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">projects</span></a>
          </div>
-         <div className="text-right space-x-2">
+         {/* <div className="text-right space-x-2">
             <a href="https://github.com/louispawaon/">
                 <GitHubIcon/>
             </a>
@@ -38,7 +35,7 @@ export default function Sidebar(){
             <a href="https://www.linkedin.com/in/louispawaon/">
                 <LinkedInIcon/>
             </a>
-         </div>
+         </div> */}
        </div>
     )
 }
