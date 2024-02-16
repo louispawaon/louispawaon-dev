@@ -1,6 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
+import { MdAccountCircle, MdEmail  } from "react-icons/md";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Card(){
     return(
@@ -13,13 +14,28 @@ export default function Card(){
                     <h2>Louis Pawaon</h2>
                 </div>
             </div>
-            <div className="flex justify-center">
-                <div className="grid auto-cols-fr gap-2">
-                    {/* <a href="/Pawaon_Resume.pdf"><AccountBoxIcon/>Download Resume</a>
-                    <a href={`mailto:lpawaon@gmail.com`}><EmailIcon/> Send Email</a>
-                    <a href="https://twitter.com/miggy_pawaon"><TwitterIcon/> Follow Twitter</a>
-                    <a href="https://www.linkedin.com/in/louispawaon/"><LinkedInIcon/> Connect LinkedIn</a>
-                    <a href="https://github.com/louispawaon/"><GitHubIcon/> Follow Github</a> */}
+            <div className="flex justify-center ">
+                <div className="gap-3 gap-x-2 flex flex-col">
+                    <div className="flex items-center">
+                        <MdAccountCircle/>
+                        <a href="/Pawaon_Resume.pdf" className="ml-2">Download Resume</a>
+                    </div>
+                    <div className="flex items-center">
+                        <MdEmail/>
+                        <a href="mailto:lpawaon@gmail.com" className="ml-2">Send Email</a>
+                    </div>
+                    <div className="flex items-center">
+                        <FaTwitter/>
+                        <a href="https://twitter.com/miggy_pawaon" className="ml-2">Follow Twitter</a>
+                    </div>
+                    <div className="flex items-center">
+                        <FaLinkedin/>
+                        <a href="https://www.linkedin.com/in/louispawaon/" className="ml-2">Connect LinkedIn</a>
+                    </div>
+                    <div className="flex items-center">
+                        <FaGithub/>
+                        <a href="https://github.com/louispawaon/" className="ml-2">Follow Github</a>
+                    </div>
                 </div>
             </div>
         </aside>
