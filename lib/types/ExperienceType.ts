@@ -1,9 +1,16 @@
-import type { StaticImageData } from "next/image";
-
-export type ExperienceType = {
-    companyName: string;
-    position: string;
-    date: string;
-    description: string[];
-    imageUrl?: StaticImageData
-}
+export interface Role {
+    title: string;
+    duration: string;
+  }
+  
+  export interface Achievement {
+    text: string;
+  }
+  
+  export type ExperienceType = {
+    id: number;
+    company: string;
+    logo: string;
+    roles: Role[];
+    achievements: Achievement[];
+  }
