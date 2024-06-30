@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import {Experience,Footer,Header,Sidebar} from "@/app/compontents/ComponentIndex"
+import {ContentSection,Footer,Header,Sidebar} from "@/app/compontents/ComponentIndex"
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <section id="Top">
         <Header/>
       </section>
-      <Experience/> 
+      <ContentSection/> 
       <Footer/>
     </main>
     </>
