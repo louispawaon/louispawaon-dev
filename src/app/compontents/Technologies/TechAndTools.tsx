@@ -9,7 +9,7 @@ const TechAndTools = () => {
         {technologies.map((tech, index) => (
           <div key={index}>
             <span
-              className={`font-semibold text-sm p-1 bg-[${tech.color}] text-[${tech.textColor}]`}
+              className={`font-semibold text-sm p-1 ${tech.color} ${tech.textColor}`}
             >
               {tech.title}
             </span>
