@@ -1,13 +1,24 @@
 import React from 'react'
 import { technologies } from '@/data/Technologies'
+import { motion } from 'framer-motion';
 
 const TechAndTools = () => {
   return (
     <div className="space-y-3 mb-10 md:mb-5 xl:mb-10">
-      <h1 className="text-2xl font-semibold">Technologies and Tools</h1>
+      <motion.div 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}>
+        <h1 className="text-2xl font-bold">Technologies and Tools</h1>
+      </motion.div>
+      
       <div className="grid grid-cols-1 gap-4">
         {technologies.map((tech, index) => (
-          <div key={index}>
+          <motion.div key={index}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }} >
             <span
               className={`font-semibold text-sm p-1 ${tech.color} ${tech.textColor}`}
             >
@@ -22,7 +33,7 @@ const TechAndTools = () => {
                 />
               ))}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

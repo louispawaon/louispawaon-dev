@@ -1,34 +1,63 @@
+import React from 'react';
 import Image from 'next/image';
 import { experiences } from '@/data/Experience';
+import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <div className="space-y-6 mb-10 md:mb-5 xl:mb-10" id="Experience">
-      <h1 className="text-2xl font-semibold">Experience</h1>
+    <div className="space-y-6 sm:space-y-8 mb-8 sm:mb-10" id="Experience">
+      <motion.div 
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Experience</h1>
+      </motion.div>
+      
       {experiences.map((experience) => (
-        <div key={experience.id}>
-          <a
-            href={experience.company === 'SAMAHAN Systems Development' ? 'https://www.facebook.com/SAMAHANSysDev' : 'https://mugna.tech/'}
-            className="flex items-center gap-6"
-          >
-            <Image src={experience.logo} width={80} height={80} className="rounded-xl h-[80px] w-[80px] flex items-center" alt="Inappropriate" />
-            <div>
-              <h1 className="font-[650] text-lg">{experience.company}</h1>
-              {experience.roles.map((role) => (
-                <h1 key={role.title} className="font-semibold text-base">
-                  {role.title} <span className="text-thin text-xs gap-4 bg-[#f6f8fa] text-[#424a53] rounded-[0.2rem]">{role.duration}</span>
-                </h1>
+        <motion.div
+          key={experience.id}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="bg-white rounded-lg shadow-md overflow-hidden"
+        >
+          <div className="p-4 sm:p-6">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
+              <Image 
+                src={experience.logo} 
+                width={64} 
+                height={64} 
+                className="rounded-lg object-cover w-16 h-16" 
+                alt={`${experience.company} logo`} 
+              />
+              <div className="flex-grow">
+                <h2 className="text-lg sm:text-xl font-semibold text-gray-800">{experience.company}</h2>
+                <a 
+                  href={experience.company === 'SAMAHAN Systems Development' ? 'https://www.facebook.com/SAMAHANSysDev' : 'https://mugna.tech/'}
+                  className="text-blue-600 hover:underline text-sm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              </div>
+            </div>
+            <div className="space-y-2 mb-4">
+              {experience.roles.map((role, index) => (
+                <div key={index} className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                  <h3 className="font-semibold text-gray-700 text-sm sm:text-base">{role.title}</h3>
+                  <span className="text-xs sm:text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded mt-1 sm:mt-0">{role.duration}</span>
+                </div>
               ))}
             </div>
-          </a>
-          <div>
-            <ul className="list-disc text-sm space-y-3 text-justify">
-              {experience.achievements.map((achievement) => (
-                <li key={achievement.text}>{achievement.text}</li>
+            <ul className="list-disc list-outside ml-4 space-y-2 text-gray-600">
+              {experience.achievements.map((achievement, index) => (
+                <li key={index} className="text-xs sm:text-sm">{achievement.text}</li>
               ))}
             </ul>
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );
