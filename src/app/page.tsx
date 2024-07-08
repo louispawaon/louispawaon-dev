@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import {Banner, Experience,Footer,Header,Sidebar} from "@/app/compontents/ComponentIndex"
+import {ContentSection,Footer,Header,Sidebar} from "@/app/compontents/ComponentIndex"
 
 export default function Home() {
   return (
@@ -9,10 +9,9 @@ export default function Home() {
     <Sidebar/>
     <main className='snap-y snap-mandatory md:mx-auto lg:mx-[15rem] py-16 px-7'>
       <section id="Top">
-        <Banner/>
         <Header/>
       </section>
-      <Experience/> 
+      <ContentSection/> 
       <Footer/>
     </main>
     </>
