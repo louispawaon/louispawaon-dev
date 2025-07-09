@@ -24,7 +24,7 @@ export default function Card() {
       </div>
       <div className="px-4 pb-4">
         <div className="grid auto-cols-fr gap-2">
-          <a href="/Pawaon_Resume.pdf" className="flex items-center gap-2 text-gray-600 hover:text-gray-800">
+          <a href="https://drive.google.com/uc?export=download&id=1Is5Wtdn5zyJAdm_UL-KCdriQAG02Z8Fk" className="flex items-center gap-2 text-gray-600 hover:text-gray-800">
             <MdAccountCircle /> Download Resume
           </a>
           <a href={`mailto:lpawaon@gmail.com`} className="flex items-center gap-2 text-gray-600 hover:text-gray-800">
