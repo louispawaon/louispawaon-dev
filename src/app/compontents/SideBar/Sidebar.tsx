@@ -6,22 +6,22 @@ export default function Sidebar(){
          <div className=" flex flex-col text-right"> 
             <a href="https://drive.google.com/uc?export=download&id=1Is5Wtdn5zyJAdm_UL-KCdriQAG02Z8Fk"><span className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               before:bottom-0 before:left-0 before:bg-black
-              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              hover:before:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">download resume</span></a>
 
             <a href="#About"><span className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               before:bottom-0 before:left-0 before:bg-black
-              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              hover:before:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">get to know migs</span></a>
 
             <a href="#Experience"><span className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               before:bottom-0 before:left-0 before:bg-black
-              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              hover:before:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">experience</span></a>
 
             <a href="#Projects"><span className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               before:bottom-0 before:left-0 before:bg-black
-              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              hover:before:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">projects</span></a>
          </div>
          {/* <div className="text-right space-x-2">

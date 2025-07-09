@@ -23,7 +23,7 @@ export default function Header() {
 
     return (
         <motion.div 
-            className="space-y-5 py-20 min-h-[100vh] snap-start relative"
+            className="space-y-5 py-20 min-h-screen snap-start relative"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -46,7 +46,7 @@ export default function Header() {
                     >
                         <span className="font-bold relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               before:bottom-0 before:left-0 before:bg-black
-              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              hover:before:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">migs</span>
                         <motion.span 
                             className="absolute bottom-0 left-0 w-full h-[2px] bg-black"

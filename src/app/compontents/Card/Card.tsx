@@ -5,8 +5,8 @@ import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 export default function Card() {
   return (
-    <aside className="sm:w-[100%] custom1:w-[100%] md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] border-2 border-[#d0d7de] border-solid rounded-xl row-span-2 overflow-hidden">
-      <div className="relative h-24 bg-gradient-to-r from-blue-500 to-purple-600">
+    <aside className="sm:w-full custom1:w-full md:sticky lg:static xl:sticky inline-block top-28 self-start bg-[#f6f8fa] border-2 border-[#d0d7de] border-solid rounded-xl row-span-2 overflow-hidden">
+      <div className="relative h-24 bg-linear-to-r from-blue-500 to-purple-600">
         <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-16">
           <Image
             src="/profile.png"

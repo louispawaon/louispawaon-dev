@@ -31,7 +31,7 @@ const Experience = () => {
                 className="rounded-lg object-cover w-16 h-16" 
                 alt={`${experience.company} logo`} 
               />
-              <div className="flex-grow">
+              <div className="grow">
                 <h2 className="text-lg sm:text-xl font-semibold text-gray-800">{experience.company}</h2>
                 <a 
                   href={experience.company === 'SAMAHAN Systems Development' ? 'https://www.facebook.com/SAMAHANSysDev' : 'https://mugna.tech/'}
@@ -47,7 +47,7 @@ const Experience = () => {
               {experience.roles.map((role, index) => (
                 <div key={index} className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                   <h3 className="font-semibold text-gray-700 text-sm sm:text-base">{role.title}</h3>
-                  <span className="text-xs sm:text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded mt-1 sm:mt-0">{role.duration}</span>
+                  <span className="text-xs sm:text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded-sm mt-1 sm:mt-0">{role.duration}</span>
                 </div>
               ))}
             </div>

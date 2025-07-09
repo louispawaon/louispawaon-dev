@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectType> = ({ title, roles, description, technol
           {roles.map((role, index) => (
             <span 
               key={index} 
-              className={`text-xs px-2 py-1 rounded ${role.color} font-semibold`}
+              className={`text-xs px-2 py-1 rounded-sm ${role.color} font-semibold`}
               style={{ color: role.textColor }}
             >
               {role.name}
