@@ -1,6 +1,38 @@
 import { ExperienceType } from "lib/types/ExperienceType";
 
 export const experiences: ExperienceType[] = [
+  {
+    id: 2,
+    company: 'Mugna Technologies Inc.',
+    logo: '/ExperienceAssets/MugnaTech.jpg',
+    roles: [
+      {
+        title: 'Junior Software Engineer',
+        duration: 'Aug 2024 - Present',
+      },
+      {
+        title: 'Backend Developer Intern',
+        duration: 'Apr 2023 - Jun 2023',
+      },
+    ],
+    achievements: [
+      {
+        text: 'Maintaining & optimizing legacy project codebases.',
+      },
+      {
+        text: 'Researching the latest frameworks, techniques, best practices, and workflow improvements for the team.',
+      },
+      {
+        text: 'Applied Python and Django skills to develop a web application, leveraging knowledge gained from relevant trainings.',
+      },
+      {
+        text: 'Collaborated with a team of developers to deliver a functional and user-friendly web application.',
+      },
+      {
+        text: 'Participated in the full software development lifecycle, including requirements gathering, design, development, and testing.',
+      },
+    ],
+  },
     {
       id: 1,
       company: 'SAMAHAN Systems Development',
@@ -37,26 +69,5 @@ export const experiences: ExperienceType[] = [
         },
       ],
     },
-    {
-      id: 2,
-      company: 'Mugna Technologies Inc.',
-      logo: '/ExperienceAssets/MugnaTech.jpg',
-      roles: [
-        {
-          title: 'Backend Developer Intern',
-          duration: 'Apr 2023 - Jun 2023',
-        },
-      ],
-      achievements: [
-        {
-          text: 'Applied Python and Django skills to develop a web application, leveraging knowledge gained from relevant trainings.',
-        },
-        {
-          text: 'Collaborated with a team of developers to deliver a functional and user-friendly web application.',
-        },
-        {
-          text: 'Participated in the full software development lifecycle, including requirements gathering, design, development, and testing.',
-        },
-      ],
-    },
+
   ];

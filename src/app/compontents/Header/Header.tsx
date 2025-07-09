@@ -67,8 +67,7 @@ export default function Header() {
                 className="flex md:text-[22px] sm:text-[15px] text-justify max-w-[60%]"
                 variants={itemVariants}
             >
-                I'm a javascript developer based in The Philippines. 
-                I have great interest in full-stack development and machine learning.
+                I'm a full-stack developer based in The Philippines. 
             </motion.p>
             <motion.p 
                 className="md:text-lg sm:text-sm mb-5"
