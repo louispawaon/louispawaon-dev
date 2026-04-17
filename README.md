@@ -1,3 +1,5 @@
+> I'm archiving this repository, I moved my newer version of my [portfolio built with Svelte](https://louispawaon.pages.dev/) and I'm now deploying under Cloudflare. I also plan to migrate all current working side projects that I have from Vercel to Cloudflare in the near future (_if i have the time to move all_). Vercel, specially their CEO, had some [questionable political alignments](https://x.com/rauchg/status/1972669025525158031) that I really do not agree with. I feel disgusted deploying here so I'm doing my best to migrate my next personal projects to *better* alternatives.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
